@@ -1,7 +1,7 @@
 # Site wide configuration
 title: Full Stack Big Data
 description: 'A simple content-focused Jekyll theme'
-url:
+url: http://fullstackbigdata.com
 date_format: '%B %d, %Y'
 fort_awesome_icon: 'cog fa-spin'
 
