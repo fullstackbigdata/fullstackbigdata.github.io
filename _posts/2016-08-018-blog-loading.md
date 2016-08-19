@@ -1,10 +1,10 @@
 ---
 layout: post
-title: The Blog Is Loading...
+title: Welcome to FullStackBigData.com
 date: 2016-08-18
 logo: 'fa fa-spinner fa-pulse'
 ---
-### An Introduction to FullStackBigData
+### An Introduction
 
 Hi, my name is Robert and this is my tech blog, FullStackBigData. If you're reading this post on accident, welcome. If you're here for actual content, know this post just serves as an introduction to the site.
 
