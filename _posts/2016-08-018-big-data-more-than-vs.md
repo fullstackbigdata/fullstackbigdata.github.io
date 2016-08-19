@@ -3,7 +3,6 @@ layout: post
 title: Big Data: More Than Vs
 date: 2016-08-18
 logo: 'fa fa-book'
-crosspost_to_medium: true
 ---
 ### An Introduction to FullStackBigData
 
