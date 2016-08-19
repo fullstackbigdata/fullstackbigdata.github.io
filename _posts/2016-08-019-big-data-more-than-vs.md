@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Big Data: More Than Vs
-date: 2016-08-18
+date: 2016-08-19
 logo: 'fa fa-spinner fa-pulse'
 ---
 ### An Introduction to FullStackBigData
