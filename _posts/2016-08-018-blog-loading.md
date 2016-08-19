@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Blog Loading...
+title: The Blog Loading...
 date: 2016-08-18
 logo: 'fa fa-spinner fa-pulse'
 ---
@@ -14,11 +14,15 @@ FullStackBigData is a tech blog featuring tutorials and editorial pieces focused
 
 ### "Full Stack"?
 
-"Full Stack" Big Data is a term I started using in early 2015 to describe the practice of building Big Data solutions from a holistic, end-to-end perspective akin to full stack web development. To be really be "doing" Big Data in todays computing world you need to be able to apply the best DevOps practices to the entire development and implementation of the solution. Being full stack Big Data means encapsulating the entire lifecycle of a Big Data solution:
-* The underlying infrastructure
-* The automated deployment of components *(whether it be utilizing physical, virtual, or container located installations and configurations)*
-* The data storage and processing frameworks
-* Even the front end apps and visualizations that users interact with
-it's all part of the Big Data Full Stack. 
+"Full Stack" Big Data is a term I started using in early 2015 to describe the practice of building Big Data solutions from a holistic, end-to-end perspective akin to full stack web development. To be really be "doing" Big Data in todays computing world you need to be able to apply the best DevOps practices to the entire development and implementation of the solution.
 
-### What's next?
+Being full stack Big Data means encapsulating the entire lifecycle of a Big Data solution:
+
++ The underlying infrastructure
++ The automated deployment of components *(whether it be utilizing physical, virtual, or container located installations and configurations)*
++ The data storage and processing frameworks
++ Even the front end apps and visualizations that users interact with
+it's all part of the Big Data Full Stack.
+
+### Great, now what?
+FullStackBigData can be read in any order, randomly or sequentially, as the intent is for every article to be able to stand on its own while also building on topics covered in previous posts. A great place to start is the post [Big Data: More Than Vs](http://fullstackbigdata.com/2016/08/18/big-data-more-than-vs/). Thanks for reading.
