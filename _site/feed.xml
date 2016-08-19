@@ -7,42 +7,22 @@
     <atom:link href="http://fullstackbigdata.com/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
-        <title>Test Test Test</title>
-        <description>&lt;p&gt;Trio comes with support for 9 different color themes as well as &lt;a href=&quot;https://fortawesome.github.io/Font-Awesome/icons/&quot;&gt;Font Awesome icons&lt;/a&gt; as logos.&lt;/p&gt;
+        <title>Blog Loading...</title>
+        <description>&lt;h3 id=&quot;an-introduction-to-fullstackbigdata&quot;&gt;An Introduction to FullStackBigData&lt;/h3&gt;
 
-&lt;h3 id=&quot;color-themes&quot;&gt;Color Themes&lt;/h3&gt;
-&lt;p&gt;By default, Trio has two basic colors – black and &lt;a href=&quot;&quot;&gt;baby blue&lt;/a&gt;. Black is used for all text and headings and this color is fixed. The other color (which is baby blue, by default) may be changed. Trio ships with 8 other colors (copied from &lt;a href=&quot;https://github.com/poole/lanyon&quot;&gt;Lanyon theme&lt;/a&gt;). These colors are listed in &lt;code class=&quot;highlighter-rouge&quot;&gt;_sass/_colors.scss&lt;/code&gt;. If you want to change the color theme, simply change the &lt;code class=&quot;highlighter-rouge&quot;&gt;$theme-color&lt;/code&gt; variable in &lt;code class=&quot;highlighter-rouge&quot;&gt;_sass/_colors.scss&lt;/code&gt;:&lt;/p&gt;
+&lt;p&gt;Hi, my name is Robert and this is my tech blog, FullStackBigData. If you’re reading this post on accident, welcome. If you’re here for actual content, know this post just serves as an introduction to the site.&lt;/p&gt;
 
-&lt;div class=&quot;language-scss highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nv&quot;&gt;$theme-color&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$base-08&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;cm&quot;&gt;/* Red */&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+&lt;h3 id=&quot;so-what-is-it&quot;&gt;So what is it?&lt;/h3&gt;
 
-&lt;p&gt;Thanks to &lt;a href=&quot;https://github.com/mdo&quot;&gt;Mark Otto&lt;/a&gt; and &lt;a href=&quot;https://github.com/chriskempson/base16&quot;&gt;Chris Kempson’s base16&lt;/a&gt; for these themes. See the &lt;code class=&quot;highlighter-rouge&quot;&gt;README.md&lt;/code&gt; on &lt;a href=&quot;https://github.com/ankur-gupta/trio&quot;&gt;GitHub Trio page&lt;/a&gt; for a screenshot of the red theme.&lt;/p&gt;
+&lt;p&gt;FullStackBigData is a tech blog featuring tutorials and editorial pieces focused on the technology I know and love: Big Data, DevOps, and all things Cloud. When I set out to start a tech blog I knew I wanted differentiate my posts from other publications by presenting cohesive, story driven tutorials and opinion pieces that aim to break down the common barriers of entry when learning about new and innovative technologies. By presenting content that builds on establishing a strong base understanding of a technology or software with real-world examples, my hope is to create new type of tech blog that is accessible to beginners while also enriching to pros.&lt;/p&gt;
 
-&lt;h3 id=&quot;logos&quot;&gt;Logos&lt;/h3&gt;
-&lt;p&gt;Trio also comes with support for logos, as you can see on the Trio homepage and this post. The logos are simply &lt;a href=&quot;http://fortawesome.github.io/Font-Awesome&quot;&gt;Font Awesome&lt;/a&gt; icons dipped in the current color theme. Post logos are shown both in the paginated index on the &lt;a href=&quot;/&quot;&gt;Trio homepage&lt;/a&gt; as well in the title of the blog post. In order to add a post logo, simply search for an icon on &lt;a href=&quot;https://fortawesome.github.io/Font-Awesome/icons/&quot;&gt;Font Awesome&lt;/a&gt; and find the icon keyword. Simply add icon keyword as the &lt;code class=&quot;highlighter-rouge&quot;&gt;logo&lt;/code&gt; field in the YAML from-matter to the post’s &lt;code class=&quot;highlighter-rouge&quot;&gt;.md&lt;/code&gt; file.&lt;/p&gt;
+&lt;h3 id=&quot;what-is-full-stack-big-data&quot;&gt;What is “Full Stack” Big Data?&lt;/h3&gt;
 
-&lt;div class=&quot;language-yaml highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nn&quot;&gt;---&lt;/span&gt;
-&lt;span class=&quot;s&quot;&gt;layout&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;post&lt;/span&gt;
-&lt;span class=&quot;s&quot;&gt;title&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;Blog Post Title&lt;/span&gt;
-&lt;span class=&quot;s&quot;&gt;logo&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;leaf&lt;/span&gt;
-&lt;span class=&quot;nn&quot;&gt;---&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;The above example will add a &lt;code class=&quot;highlighter-rouge&quot;&gt;leaf&lt;/code&gt; logo for the blog post.&lt;/p&gt;
-
-&lt;p&gt;Font Awesome has a few &lt;a href=&quot;https://fortawesome.github.io/Font-Awesome/examples/#animated&quot;&gt;animated icons&lt;/a&gt; that can also be used. Animated icons could be useful to draw attention to a new post (such as this post).&lt;/p&gt;
-
-&lt;p&gt;In addition to individual post logos, Trio also supports a site logo that appears in the footer of all pages. Site wide logo is also a Font Awesome icon and may be set in a similar manner. The only difference is that instead of setting the logo in a &lt;code class=&quot;highlighter-rouge&quot;&gt;.md&lt;/code&gt; file, you need to set the logo in &lt;code class=&quot;highlighter-rouge&quot;&gt;_config.yml&lt;/code&gt; file:&lt;/p&gt;
-
-&lt;div class=&quot;language-yaml highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;s&quot;&gt;fort_awesome_icon&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&#39;&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;cog&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;fa-spin&#39;&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+&lt;p&gt;“Full Stack” Big Data is a term I started using in early 2015 to describe the practice of building Big Data solutions from a holistic, end-to-end perspective akin to full stack web development. To be really be “doing” Big Data in todays computing world you need to be able to apply the best DevOps practices to the entire implementation of the solution. From the underlying infrastructure, to the automated deployment of components (whether it be utilizing physical, virtual, or container located installations and configurations), to the data storage and processing frameworks, to finally the front end apps and visualizations that users interact with, being full stack Big Data means encapsulating the entire lifecycle of a Big Data solution.&lt;/p&gt;
 </description>
-        <pubDate>Mon, 07 Sep 2015 00:00:00 -0400</pubDate>
-        <link>http://fullstackbigdata.com/2015/09/07/color-themes-and-post-logos/</link>
-        <guid isPermaLink="true">http://fullstackbigdata.com/2015/09/07/color-themes-and-post-logos/</guid>
+        <pubDate>Thu, 18 Aug 2016 00:00:00 -0400</pubDate>
+        <link>http://fullstackbigdata.com/2016/08/18/blog-loading/</link>
+        <guid isPermaLink="true">http://fullstackbigdata.com/2016/08/18/blog-loading/</guid>
       </item>
     
   </channel>

@@ -154,6 +154,8 @@
     <br/>
 </footer>
 <!-- Footer: end -->
-
+{% if jekyll.environment == 'production' %}
+{% include analytics.html %}
+{% endif %}
 </body>
 </html>
