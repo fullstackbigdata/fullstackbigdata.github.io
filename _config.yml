@@ -50,7 +50,9 @@ redcarpet:
 #   use_coderay: false
 
 # Gems
-gems: ['jekyll-paginate']
+gems:
+  -jekyll-paginate
+  -jekyll-crosspost-to-medium
 
 # Exclude
 exclude: ['README.md']
