@@ -29,23 +29,16 @@ MIT License
 html {
   font-family: 'Open Sans', sans-serif; }
 
-/*
 @media (min-width: 30rem) {
   html {
-    font-size: 20px;
-  }
-}
-
+    font-size: 20px; } }
 body {
   margin: 2rem 0 5rem;
-  color: $base-gray;
-}
+  color: #333; }
 
 @media (min-width: 30rem) {
   body {
-    margin-top: 5rem;
-  }
-} */
+    margin-top: 5rem; } }
 a {
   text-decoration: none; }
 
