@@ -42,12 +42,12 @@ redcarpet:
   extensions: ['smart', 'tables', 'with_toc_data', 'footnotes']
 
 # Enable when using kramdown (you will need to use ~~~ instead of ```)
-# kramdown:
-#   auto_ids: true
-#   footnote_nr: 1
-#   entity_output: as_char
-#   toc_levels: 1..6
-#   use_coderay: false
+kramdown:
+auto_ids: true
+footnote_nr: 1
+entity_output: as_char
+toc_levels: 1..6
+use_coderay: false
 
 # Gems
 gems: ['jekyll-paginate']

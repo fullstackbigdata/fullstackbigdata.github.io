@@ -2,7 +2,8 @@
 layout: post
 title: Welcome to FullStackBigData.com
 date: 2016-08-18
-logo: 'fa fa-spinner fa-pulse'
+update_date: 2016-08-23
+logo: 'fa fa-star'
 ---
 ### An Introduction
 
