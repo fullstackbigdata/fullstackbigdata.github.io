@@ -5,7 +5,7 @@
 ---
 
 /*
-This is the main SCSS file for Trio.
+This is the main SCSS file for FSBD.
 All other files are partial SCSS or CSS files.
 All other files are loaded into this file
 Location of partials is `sass_dir`, which defaults to `_sass`.
@@ -19,6 +19,7 @@ Location of partials is `sass_dir`, which defaults to `_sass`.
 @import 'bourbon/bourbon';
 @import 'neat/neat';
 @import 'footer';
+@import 'header';
 @import 'pagination';
 @import 'forms';
 @import 'sharing';
