@@ -8,8 +8,8 @@ MIT License
 $medium-screen: em(640) !default;
 $large-screen: em(860) !default;
 
-// Uncomment this for a sticky footer.
-.wrapper-for-content-outside-of-footer {
+// Uncomment this for a sticky nav.
+.wrapper-for-content-outside-of-nav {
   min-height: 100%;
   height: auto !important;
   height: 100%;
@@ -20,31 +20,31 @@ html, body {
  height: 100%;
 }
 
-.wrapper-for-content-outside-of-footer:after {
+.wrapper-for-content-outside-of-nav:after {
   content: "";
   display: block;
 }
 
-.stickyfooter, .wrapper-for-content-outside-of-footer:after {
+.stickynav, .wrapper-for-content-outside-of-nav:after {
   height: 17em;
   @include media($large-screen) {
     height: 4em;
   }
 }
 
-.stickyfooter {
+.stickynav {
   $base-spacing: 1.5em !default;
-  $footer-background: lighten($theme-color, 15%);
-  $footer-hover-color: $white;
-  $footer-text-color: transparentize($footer-hover-color, 0.6);
-  $footer-link-color: transparentize($footer-hover-color, 0.3);
+  $nav-background: lighten($theme-color, 15%);
+  $nav-hover-color: $white;
+  $nav-text-color: transparentize($nav-hover-color, 0.6);
+  $nav-link-color: transparentize($nav-hover-color, 0.3);
 
-  background: $footer-background;
+  background: $nav-background;
   padding: $base-spacing;
   width: 100%;
   display: inline-block;
 
-  .footer-logo {
+  .nav-logo {
     margin-right: 1em;
     margin-bottom: 1em;
 
@@ -54,12 +54,12 @@ html, body {
     }
   }
 
-  .footer-logo {
+  .nav-logo {
     height: 1.6em;
     line-height: 0.6em;
     a i {
       font-size: 1.75em;
-      color: $footer-hover-color;
+      color: $nav-hover-color;
     }
   }
 
@@ -77,7 +77,7 @@ html, body {
   }
 
   ul li {
-    color: $footer-text-color;
+    color: $nav-text-color;
     list-style: none;
     padding-right: 1em;
 
@@ -88,16 +88,16 @@ html, body {
   }
 
   ul li a {
-    color: $footer-link-color;
+    color: $nav-link-color;
     text-decoration: none;
 
     &:focus,
     &:hover {
-      color: $footer-hover-color
+      color: $nav-hover-color
     }
   }
 
-  .footer-secondary-links {
+  .nav-secondary-links {
     @include media($large-screen) {
       float: right;
     }
@@ -106,7 +106,7 @@ html, body {
       font-size: 0.8em;
     }
 
-    ul.footer-social {
+    ul.nav-social {
       margin: 1em 0 0 0;
 
       @include media($large-screen) {
